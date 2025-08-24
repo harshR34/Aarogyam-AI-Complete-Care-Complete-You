@@ -28,6 +28,30 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
+# --- Backend dependencies ---
+pip install fastapi
+pip install uvicorn
+pip install requests
+pip install python-dotenv
+
+# --- Frontend dependencies ---
+pip install streamlit
+
+# --- AI / LLM dependencies ---
+pip install groq
+pip install langchain
+pip install langchain-groq
+pip install langchain-ollama
+pip install langgraph
+
+# --- Twilio for emergency call service ---
+pip install twilio
+
+# --- Optional (for async, performance, etc.) ---
+pip install httpx
+pip install aiohttp
+
+
 
 ---
 

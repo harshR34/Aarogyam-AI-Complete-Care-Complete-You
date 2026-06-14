@@ -145,12 +145,12 @@ A rule-based classifier checks for keywords (chest pain, suicide, unconscious, e
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License — see [LICENSE] for details.
 
 ---
 
 ## 🙋 Author
 
-**Harsh Vaghela** — [GitHub](https://github.com/harshR34) | [LinkedIn](#)
+**Harsh Vaghela** — [GitHub](https://github.com/harshR34) | [LinkedIn](https://www.linkedin.com/in/harsh-vaghela-82a801279)
 
 *Built as part of AI/ML coursework and personal research into safe LLM deployment.*

@@ -3,14 +3,29 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
 from datetime import datetime
-
+from fastapi.middleware.cors import CORSMiddleware
 from ai_agent import graph, SYSTEM_PROMPT, parse_response
 
 app = FastAPI(
-    title="AI Chat Backend",
-    description="API for chatting with AI and retrieving chat history",
+    title="Aarogyam AI",
+    description="Holistic Healthcare Chatbot API powered by Ollama & Groq",
     version="1.0.0"
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.get("/")
+def root():
+    return {"status": "Aarogyam AI backend running", "version": "1.0.0"}
+
+@app.get("/health")
+def health():
+    return {"status": "healthy"}
 
 # In-memory chat storage
 chat_history = {}

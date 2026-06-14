@@ -25,7 +25,7 @@ This project was built to explore practical challenges in deploying LLMs respons
 ---
 
 ## 🏗️ Architecture
-URL :- 
+URL :- https://github.com/harshR34/Aarogyam-AI-Complete-Care-Complete-You/blob/main/aarogyam_ai_architecture.jpg
 
 ---
 
